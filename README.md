@@ -1,6 +1,6 @@
-#A simple way to create and customise a professional looking resume.
+A simple way to create and customise a professional looking resume.
 
-#How to use:
+How to use:
 
 Clone this repository.
 git clone https://github.com/ishaan-ner/resume-builder.git
