@@ -12,7 +12,7 @@
     "react-scripts": "3.4.1",
     "react-to-print": "^2.9.0"
   },
-  "homepage": "http://ishaan-ner.github.io/resume-builder",
+  "homepage": "https://ishaan-ner.github.io/resume-builder",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
