@@ -12,7 +12,13 @@ const ControlPanel = (props) => {
   } = props;
 
   return (
-    <Grid container alignContent="flex-start" style={{ height: "100%" }}>
+    <Grid
+      container
+      alignContent="space-around"
+      style={{
+        height: "100%",
+      }}
+    >
       <Grid
         item
         xs={12}

@@ -1,57 +1,57 @@
 const init = {
   personal: {
-    firstName: "Ishaan",
-    lastName: "Nerurkar",
-    jobTitle: "Music Teacher",
-    email: "ishaan.ner@gmail.com",
-    phone: "+61415615525",
+    firstName: "John",
+    lastName: "Smith",
+    jobTitle: "Senior Executive",
+    email: "xyz@gmail.com",
+    phone: "+1234567890",
   },
 
   professionalSummary:
-    "Music teacher with 5 years of teaching experience teaching students of various ages and instrument proficiencies",
+    "A brief description of your professional career so far, including important achievements.",
 
   employment: [
     {
-      designation: "Guitar Teacher",
-      company: "MiniMozarts School of Music",
+      designation: "Your Designation",
+      company: "Employer1",
       startDate: "2017-02-03",
       endDate: "2020-02-03",
-      city: "Melbourne",
+      city: "City of Employment",
       summary:
-        "Taught guitar for 5 years. Conducted concerts and band seminars.",
+        "A short description of your work at this place of employment, including projects, key reponsiblities etc.",
     },
     {
-      designation: "Piano Teacher",
-      company: "Creative Music",
+      designation: "Your Designation",
+      company: "Employer1",
       startDate: "2017-02-03",
       endDate: "2020-02-03",
-      city: "Melbourne",
+      city: "City of Employment",
       summary:
-        "Taught guitar for 5 years. Conducted concerts and band seminars.",
+        "A short description of your work at this place of employment, including projects, key reponsiblities etc.",
     },
   ],
 
   education: [
     {
-      degree: "BE E&TC",
-      university: "Pune University",
+      degree: "Bachelor of ...",
+      university: "XYZ University",
       startDate: "2009-06-09",
       endDate: "2014-05-02",
-      city: "Pune",
+      city: "Example City",
       summary:
-        "Bachelor of Electronics and Telecommunication involving major projects in home automation and voice recognition",
+        "Bachelor of ... majoring in a particular field. Final thesis included the study of ...",
     },
     {
-      degree: "Bachelor of Music",
-      university: "JMC Academy",
+      degree: "Masters of ...",
+      university: "ABC University",
       startDate: "2009-06-09",
       endDate: "2014-05-02",
-      city: "Melbourne",
+      city: "Example City",
       summary:
-        "Bachelor of contemporary music performance along with audio production.",
+        "Masters of ... majoring in a particular field. Final thesis included the study of ...",
     },
   ],
 
-  skills: ["Guitar", "Piano", "Javascript", "React", "Audio"],
+  skills: ["Skill1", "Skill2", "Skill3", "Skill4", "Skill5"],
 };
 export default init;

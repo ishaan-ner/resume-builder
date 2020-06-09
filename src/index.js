@@ -8,7 +8,7 @@ import * as serviceWorker from "./serviceWorker";
 let theme = createMuiTheme({
   palette: {
     primary: {
-      main: "#26a69a",
+      main: "#48BDAC",
     },
   },
   shape: {

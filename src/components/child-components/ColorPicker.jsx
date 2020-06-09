@@ -1,5 +1,5 @@
 import React from "react";
-import { Radio, Typography } from "@material-ui/core";
+import { Radio, Typography, Grid } from "@material-ui/core";
 
 const ColorPicker = (props) => {
   const { currentColor, onChange } = props;
@@ -23,7 +23,7 @@ const ColorPicker = (props) => {
       <Typography variant="h6" color="primary">
         CHANGE COLOR
       </Typography>
-      <div>
+      <Grid container justify="space-evenly" style={{ marginTop: "1rem" }}>
         {colorKeys.map((color) => {
           return (
             <Radio
@@ -40,7 +40,7 @@ const ColorPicker = (props) => {
             />
           );
         })}
-      </div>
+      </Grid>
     </React.Fragment>
   );
 };

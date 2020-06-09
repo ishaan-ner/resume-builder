@@ -31,6 +31,8 @@ function App() {
         case "template3":
           setColor("#082a4d");
           return;
+        default:
+          return;
       }
     }
   };
@@ -41,8 +43,22 @@ function App() {
   });
 
   return (
-    <Grid container style={{ height: "100%" }} justify="center">
-      <Grid item lg={4} xs={12} style={{ height: "100%", padding: "2rem" }}>
+    <Grid
+      container
+      style={{
+        height: "100%",
+      }}
+      justify="center"
+    >
+      <Grid
+        item
+        lg={4}
+        xs={12}
+        style={{
+          height: "100%",
+          padding: "2rem",
+        }}
+      >
         <UserForm formData={formData} handleFieldChange={handleFieldChange} />
       </Grid>
       <Grid
@@ -50,7 +66,11 @@ function App() {
         lg={5}
         sm={10}
         xs={12}
-        style={{ height: "100%", padding: "3rem", backgroundColor: "grey" }}
+        style={{
+          height: "100%",
+          padding: "3rem",
+          backgroundColor: "#DFDCE3",
+        }}
       >
         <Preview
           data={formData}
@@ -59,7 +79,15 @@ function App() {
           componentToPrint={componentToPrint}
         />
       </Grid>
-      <Grid item lg={3} xs={10} style={{ height: "100%", padding: "2rem" }}>
+      <Grid
+        item
+        lg={3}
+        xs={12}
+        style={{
+          height: "100%",
+          padding: "2rem",
+        }}
+      >
         <ControlPanel
           currentColor={currentColor}
           currentTemplate={currentTemplate}
