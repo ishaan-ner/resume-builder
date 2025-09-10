@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-to-print": "^2.9.0"
   },
   "homepage": "https://ishaan-ner.github.io/resume-builder",
